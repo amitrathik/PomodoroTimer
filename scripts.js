@@ -1,7 +1,7 @@
 // 1 Pomodoro = 25 minutes
 var pomodoro = 25;
 var pomodoroTimer;
-
+var didTimerFinish = false;
 var timer = {
   start : function(){
     pomodoroTimer =  setInterval(function(){
