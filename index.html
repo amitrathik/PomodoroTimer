@@ -1,4 +1,4 @@
-<<!DOCTYPE html>
+<!DOCTYPE html>
 <html lang="en">
 <head>
   <meta charset="UTF-8">
@@ -8,8 +8,11 @@
   <script src="scripts.js"></script>
 </head>
 <body>
-
-    <div id="time"></div>
-
+	<form action="" method="GET" class="js-timerApp">
+		<input type="number" name="timeInSeconds" id="timeInSeconds" min="0" />
+		<button type="button" id="js-startBtn" >Start</button>
+		<button type="button" id="js-pauseBtn" >Pause</button>
+		<button type="button" id="js-resetBtn" >Reset</button>
+	</form>
 </body>
 </html>
