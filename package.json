@@ -1,0 +1,24 @@
+{
+  "name": "pomodorotimer",
+  "version": "1.0.0",
+  "description": "Mobile app that extends a normal timer with the Pomodoro Technique.",
+  "main": "scripts.js",
+  "scripts": {
+    "build": "babel src -d lib",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://amitrathik@github.com/amitrathik/PomodoroTimer.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/amitrathik/PomodoroTimer/issues"
+  },
+  "homepage": "https://github.com/amitrathik/PomodoroTimer#readme",
+  "devDependencies": {
+    "babel-cli": "^6.26.0",
+    "babel-preset-env": "^1.6.0"
+  }
+}
